@@ -11,9 +11,14 @@
     dentro de Mudlet.
 ]]--
 
+-- Ser llenadas por el usuario
+COMIDA = nil                -- Ejemplo: Tarta. Dejar para castear 'crear comida'
+CONTENEDOR_BEBIDA = nil     -- Ejemplo: Barril.
 
+-- Fijas. No cambiar.
+RECALL = "recall"
 
-PATHS = {
+PATHS_DESDE_RECALL = {
     catacumbas=".d",
     campo_batalla=".2s3e4n2w4n3w",
     ciudad_clanes=".2e",
@@ -82,4 +87,4 @@ PATHS = {
     ciudad_fortificada=".2s21e8s",
     templo_soledad=".2s21e10nd",
     barco_fantasma=".2s34en2e"
-    }
+}

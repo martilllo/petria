@@ -28,7 +28,17 @@ end
 
 -- Funciones.
 
-function stringPathToMovementCommands( path )
+function irRecall()
+  --[[
+    Para transportarse a recall. Dejando como
+    Funcion para permitir acciones adicionales.
+  ]]--
+
+  send(RECALL)
+
+end
+
+function generarMovimientos( path )
 
     --[[
         En Mudlet, cuando uno pone un path que empieza con ".", mudlet
